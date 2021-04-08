@@ -1,0 +1,20 @@
+body {
+    /* box-sizing: border-box; */
+    /* height: 100%; */
+}
+
+.list {
+    /* object-fit: cover; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex-basis: 28%;
+    border: 1px solid darkslategrey;
+    padding: 1 em;
+    border: solid darkslategrey .1px;
+    text-align: center;
+    justify-content: space-evenly;
+}
